@@ -1,25 +1,13 @@
 package com.co.ke.walletservice.moneypal;
 
-import com.co.ke.walletservice.moneypal.model.UserWallet;
 import com.co.ke.walletservice.moneypal.repository.WalletRepository;
 import com.co.ke.walletservice.moneypal.service.WalletService;
-import com.co.ke.walletservice.moneypal.wrapper.GeneralResponseWrapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.mockito.Mockito.when;
-
 @SpringBootTest
 class MoneypalApplicationTests {
-
-    @Autowired
-    private WalletService walletService;
-
-    @Autowired
-    private WalletRepository walletRepository;
 
     @Test
     void contextLoads() {
